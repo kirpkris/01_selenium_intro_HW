@@ -28,7 +28,7 @@ public class LoginTest extends FirstTest{
     public void loginPositive() {
         WebElement userName = driver.findElement(By.id("UserName"));
         userName.clear();
-        userName.sendKeys("vishkov");
+        userName.sendKeys("kkirpich");
 
         WebElement password = driver.findElement(By.id("Password"));
         password.clear();
